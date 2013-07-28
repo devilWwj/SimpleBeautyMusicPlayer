@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/albumImage"
+        android:layout_width="64.0dip"
+        android:layout_height="64.0dip"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:src="@drawable/music" />
+
+    <TextView
+        android:id="@+id/music_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="5.0dp"
+        android:textColor="@drawable/text_color_selector"
+        android:text="@string/time" />
+    <TextView
+        android:id="@+id/music_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/albumImage"
+        android:focusable="true"
+        android:text="@string/siger"
+        android:textColor="@drawable/text_color_selector"
+        android:textSize="18sp"
+        />
+<TextView
+        android:id="@+id/music_Artist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/music_title"
+        android:layout_marginTop="5.0dip"
+        android:layout_below="@id/music_title"
+        android:textColor="@drawable/text_color_selector"
+        android:text="@string/artist" />
+</RelativeLayout>

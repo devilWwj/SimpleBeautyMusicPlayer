@@ -1,0 +1,28 @@
+<resources>
+
+    <string name="app_name">简、美音乐播放器</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">简、美音乐播放器</string>
+    <string name="siger">我是歌手</string>
+    <string name="artist">小巫</string>
+    <string name="time">4:50</string>
+    <string name="cancel">取消</string>
+    <string  name="confrim">确定</string>
+    <string name="shuffle_none">随机播放已关闭</string>
+    <string name="shuffle">随机播放已打开</string>
+    <string name="repeat_none">重复播放已关闭</string>
+    <string name="repeat_current">重复播放当前歌曲</string>
+    <string name="repeat_all">重复播放所有歌曲</string>
+    <string name="operation">将此歌曲处理为</string>
+    <string name="playing">正在播放。。。</string>
+    <string name="skin_settings">皮肤设置</string>
+    <string name="menu_exit_txt">退出</string>
+    <string name="oftenuse">常用</string>
+    <string name="about_infomation">本播放器由小巫开发，名为《简、美音乐播放器》，仅供学习和技术交流之用</string>
+    <string name="brightness_title">日照模式</string>
+    <string name="darkness_title">夜晚模式</string>
+    <string name="info">操作:</string>
+    <string name="dialog_messenge">你确定要退出程序吗？</string>
+	<string name="about_title">关于</string>
+	<string name="menu_time_txt">定时关闭</string>
+</resources>

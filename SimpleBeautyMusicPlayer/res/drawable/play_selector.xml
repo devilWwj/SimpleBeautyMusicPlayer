@@ -1,0 +1,12 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item 
+		android:state_pressed="true" 
+		android:drawable="@drawable/play_glow"/>
+	<item 
+		android:state_focused="true" 
+		android:state_enabled="true" 
+		android:state_window_focused="true" 
+		android:drawable="@drawable/play"/>
+	<item 
+		android:drawable="@drawable/play"/>
+</selector>

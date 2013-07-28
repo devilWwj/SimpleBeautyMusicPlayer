@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 没有焦点时字体颜色 -->
+    <item android:state_pressed="false" android:color="#FFFFFF"/>
+    <!-- 选中时的字体颜色 -->
+    <item android:state_pressed="true" android:color="#3197FF"/>
+    <!-- 非触摸模式下获得焦点并单击时的字体颜色 -->
+    <item android:state_pressed="true" android:state_selected="true" android:color="#3197FF"/>
+
+</selector>

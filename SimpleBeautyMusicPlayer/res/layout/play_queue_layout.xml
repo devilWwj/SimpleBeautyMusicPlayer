@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/play_queue_layout"
+    android:orientation="vertical" 
+    android:background="@drawable/main_bg03">
+    <ListView
+        android:id="@+id/lv_play_queue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#ffffff"
+        android:dividerHeight="1dip"
+        >
+    </ListView>
+</LinearLayout>

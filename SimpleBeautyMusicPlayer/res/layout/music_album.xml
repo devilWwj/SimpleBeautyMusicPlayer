@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/ablumlayout_bg" >
+
+            <ImageView
+                android:id="@+id/iv_music_ablum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:layout_gravity="center"
+                android:src="@drawable/default_album"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:background="@drawable/ablumlayout_reflection_bg" >
+
+            <ImageView
+                android:id="@+id/iv_music_ablum_reflection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:layout_gravity="center"/>
+        </FrameLayout>
+    </LinearLayout>
+
+</RelativeLayout>
